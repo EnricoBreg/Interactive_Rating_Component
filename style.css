@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+    background: hsl(216, 12%, 8%);
+    color: #fff;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 430px;
+    background: hsl(213, 19%, 18%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -300px 300px -30px inset;
+    margin: 150px auto;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+/* Star */
+header {
+    margin-bottom: 30px;
+}
+
+header .star {
+    background: hsl(213, 19%, 18%);
+    padding: 12px;
+    border-radius: 40px;
+
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Feedback */
+.feedback h3 {
+    font-size: 26px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.feedback p {
+    margin-bottom: 30px;
+    color: hsl(217, 12%, 63%);
+}
+
+.feedback .feedback-btns {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 25px;
+}
+
+.feedback .feedback-btns .rating-btn {
+    background: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback .feedback-btns .rating-btn:hover {
+    background: hsl(217, 12%, 63%);
+    transition: background-color 0.8s linear;
+}
+
+.feedback button.submit-btn {
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 200;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.feedback button.submit-btn:hover {
+    background: #fff;
+    color: hsl(25, 97%, 53%);
+    border: 1px solid hsl(25, 97%, 53%);
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* After submitting the form */
+
+/* Header */
+header div.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div.thank-you img{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+header div.thank-you p {
+    background: hsl(213, 19%, 18%);
+    padding: 5px 25px;
+    border-radius: 15px;
+    color: hsl(25, 97%, 53%);
+    font-size: 0.9em;
+    font-weight: 200;
+}
+
+/* Apprecieting */
+section.apprecieting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.apprecieting h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section.apprecieting p {
+    font-size: 0.9em;
+    color: hsl(217, 12%, 63%);
+    padding: 3px 10px;
+}
